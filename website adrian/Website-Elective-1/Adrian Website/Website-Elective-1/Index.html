@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket Company | Launching the Future</title>
+    <link rel="stylesheet" type="text/css" href="index-style.css" media="screen">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: #003366;
+            color: white;
+        }
+        .header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .header a.active {
+            font-weight: bold;
+        }
+        section {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .tagline {
+            font-size: 1.2em;
+            color: #ffcc00;
+        }
+        .service-container, .rocket-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .service, .rocket {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .service img, .rocket img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .service button, .rocket button {
+            background: #000000;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        footer {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header-Left">
+                <a href="index.html" class="logo">RocketCo</a>
+            </div>
+            <div class="header-Right"> 
+                <a href="about.html">About Us</a>
+                <a class="active" href="index.html">Home</a>
+                <a href="services.html">Our Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <h1>Welcome to RocketCo</h1>
+        <h2>We are pioneers in aerospace technology, dedicated to making space accessible for everyone.</h2>
+        <p class="tagline">“Launching the Future, One Rocket at a Time!”</p>
+        <h2>Join us on our journey to explore the cosmos!</h2>
+    </section>
+
+    <div class="service-container">
+        <div class="service">
+            <img src="https://www.baltana.com/files/wallpapers-5/Rocket-HD-Wallpapers-17611.jpg" alt="Rocket Launch">
+            <h2>Rocket Launch Services</h2>
+            <p>We provide reliable launch services for satellites and payloads.</p>
+            <button onclick="location.href='services.html'">Learn More</button>
+        </div>
+        <div class="service">
+            <img src="https://i2.wp.com/www.bwallpaperhd.com/wp-content/uploads/2018/09/JamesWebbSpaceTelescope-1280x1080.jpg" alt="Satellite Deployment">
+            <h2>Satellite Deployment</h2>
+            <p>Expert solutions for deploying satellites into orbit.</p>
+            <button onclick="location.href='services.html'">Learn More</button>
+        </div>
+        <div class="service">
+            <img src="https://images.squarespace-cdn.com/content/v1/636596712c2e2b11a83a4676/3647b517-39ea-415e-99be-1df94695d8b1/IMG_0475.JPG" alt="Research and Development">
+            <h2>Research & Development</h2>
+            <p>Innovative technologies to advance space exploration.</p>
+            <button onclick="location.href='services.html'">Learn More</button>
+        </div>
+    </div>
+
+    <div class="rocket-container">
+        <div class="rocket">
+            <img src="https://www.teslarati.com/wp-content/uploads/2019/12/CRS-19-C106-Falcon-9-B1059-vertical-LC-40-120419-Richard-Angle-pano-1-c.jpg">
+            <h2>Daenerys 1</h2>
+            <p>The reliable workhorse of SpaceX, designed for reusability.</p>
+        </div>
+        <div class="rocket">
+            <img src="https://i.redd.it/d3nuclbzqwr31.jpg">
+            <h2>Atlas V</h2>
+            <p>A versatile rocket for a wide range of missions.</p>
+        </div>
+        <div class="rocket">
+            <img src="https://images-cdn.9gag.com/photo/aVbKxd2_700b.jpg">
+            <h2>Ariane 5</h2>
+            <p>Europe's heavy-lift launcher for satellite missions.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            © Copyright <strong><span>Rocket Company</span></strong>. All Rights Reserved
+        </div>
+    </footer>
+</body>
+</html>
