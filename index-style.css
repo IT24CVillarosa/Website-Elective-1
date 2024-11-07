@@ -6,7 +6,7 @@ body {
     font-family: sans-serif;
     line-height: 1.5;
     min-height: 100vh;
-    background-image: url("https://imgs.search.brave.com/V3ovw27Uw4wqHdLcBLptq1eYC4xQgQkseJN-rCkfYB0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jNC53/YWxscGFwZXJmbGFy/ZS5jb20vd2FsbHBh/cGVyLzM4NC82MTMv/MjIzL2F0aGVucy1z/Y2hvb2wtc3RlcHMt/cmFwaGFlbC13YWxs/cGFwZXItcHJldmll/dy5qcGc");
+    background-image: url("https://imgs.search.brave.com/_96LFRmZ0TJu5hKRw8Tt7N2KUDYWGQK66wJHh5_YP3w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9j/L2M4L1NjaG9vbC1v/Zi1hdGhlbnMyLmpw/Zw");
     background-size: cover; /* Ensures the image covers the entire body */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
