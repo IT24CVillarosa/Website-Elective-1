@@ -1,0 +1,209 @@
+/* Shared styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation Bar */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Navigation Bar Flex Layout */
+nav {
+    display: flex;
+    justify-content: space-between; /* Ensure space between left and right */
+    align-items: center;
+    width: 100%;
+}
+
+/* Left Section for Navigation Links (About Us, Contact) */
+ul.nav-left {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav-left li {
+    margin: 0 1em; /* Add space between menu items */
+}
+
+/* Navigation Links Styled as Buttons */
+ul.nav-left li a.button-link {
+    display: inline-block;
+    padding: 0.5em 1em; /* Add padding to make them button-like */
+    background-color: #4682B4; /* Blue background */
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+ul.nav-left li a.button-link:hover {
+    background-color: rgb(255, 217, 0); /* Darker blue on hover */
+}
+
+/* Right Section for Logo */
+.nav-right {
+    display: flex;
+    justify-content: flex-end; /* Align the logo to the right */
+}
+
+.logo {
+    font-size: 2rem; /* Adjust logo size */
+    font-weight: bold;
+    text-decoration: none;
+    color:  rgb(255, 217, 0);
+    text-transform: uppercase; /* Optional: makes it all caps */
+    padding-right: 10px; /* Ensure the logo is aligned to the right edge */
+}
+
+/* Navigation links hover effect */
+nav a:hover {
+    color: #FF6347;
+}
+
+/* Header Main Title */
+h1 {
+    margin-top: 0;
+}
+
+/* Main Content */
+main {
+    padding: 1em;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Philosophy Card Styles for Homepage */
+.philosophies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.philosophy-card {
+    border-top: 4px solid;
+    background-color: #f4f4f4;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.philosophy-card h2 {
+    color: #333;
+    margin-top: 0.5em;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* About Us and Contact Section Styles */
+.about-section, .contact-section {
+    padding: 2em;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+
+.quote-section {
+    margin: 2em auto;
+    text-align: center;
+}
+
+.quote-section blockquote {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #555;
+    margin: 0;
+    padding: 1em;
+    border-left: 5px solid #4682B4;
+    background-color: #f4f4f9;
+}
+
+/* Contact Form */
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section label {
+    margin-top: 1em;
+}
+
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.contact-section button[type="submit"] {
+    margin-top: 1em;
+    padding: 0.75em;
+    background-color: #4682B4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-section button[type="submit"]:hover {
+    background-color: #357ABD;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    width: 100%; /* Ensures the footer spans the entire width */
+    position: relative; /* Stretches the footer to full width of the page */
+    bottom: 0; /* Keeps it at the bottom of the page */
+    margin-top: 2em; /* Adds space above the footer */
+}
+
+/* Styling for Paragraphs inside Footer */
+footer p {
+    margin: 0.5em 0;
+    font-size: 1rem;
+}
+
+/* Styling for Links inside Footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

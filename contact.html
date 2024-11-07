@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Philosophy 101</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+            
+             <!-- Logo (Philosophia) aligned to the right -->
+             <div class="nav-right">
+                <a href="homepage.html" class="logo">Philosophia</a>
+            
+        </nav>
+        <h1>Contact Adrian Villarosa</h1>
+        <p>Have a question or feedback? Reach out to Adrian directly.</p>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> drianv5335@gmail.com</p>
+            <p><strong>Phone:</strong> 09008745451</p>
+
+            <h2>Send a Message</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        
+        <section class="quote-section">
+            <blockquote>
+                "Philosophy begins in wonder." — Aristotle
+            </blockquote>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Philosophy 101. Created by Adrian Villarosa.</p>
+    </footer>
+</body>
+</html>
